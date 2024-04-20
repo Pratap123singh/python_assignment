@@ -1,0 +1,7 @@
+t1=('a','b','c','d','e','f')
+print(type(t1))
+print(t1)
+q= -1 * (len(t1)-2)
+print(q)
+print(t1[q])
+#print(t1[1])
