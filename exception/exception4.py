@@ -1,3 +1,4 @@
+#if we write only except: 
 def divide(num1: int, num2: int):
     try:
         print("above")
@@ -5,13 +6,13 @@ def divide(num1: int, num2: int):
         print("below")
         #print(f"result: {result}")
         return result
-    except Exception:
-        print("exception handle by base class")
+    except:
+        print("write only except.")
     else:
         print("inside else")
     finally:
         print("inside finally")
     
-    print("execution continue after try-except block")
+    print("after try-except block")
     
 print(divide(10,0))
