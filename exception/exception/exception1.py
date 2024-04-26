@@ -13,3 +13,4 @@ def divide(num1: int, num2: int):
     print("execution continue after try-except block")
     
 divide(10,0)
+
