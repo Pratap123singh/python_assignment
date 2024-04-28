@@ -4,7 +4,7 @@
 # Else if emp_id is odd -- > print sum of ascii values of characters in emp_name
 # Else print None
 
-emp_name="pranjalpratapsingh"
+emp_name="pranjalpratapsingh:"
 emp_id="4"
 
 def check(emp_name: str, emp_id: int):
