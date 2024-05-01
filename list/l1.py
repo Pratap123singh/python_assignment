@@ -133,3 +133,19 @@ print("---------------------------unpacking---------------------------")
 l21=[10,20,40,-60]
 a,*b,c=l21
 print(f"a: {a}, b: {b}, c: {c}")
+
+print("---------------------------sort numbers---------------------------")
+l22=[1,6,-7,0]
+l22.sort(reverse=True)
+print("l22.sort(): ", l22)
+
+print("---------------------------sort words---------------------------")
+l22=['rahul','mitu','paras']
+l22.sort(reverse=True)
+print("l22.sort(): ", l22)
+
+print("---------------------------sort through lambda---------------------------")
+l22=['rahul','mitu','paras']
+print("Ascending order: ", sorted(l22, key = lambda x: x, reverse=False))
+print("Descending order: ", sorted(l22, key = lambda x: x, reverse=True))
+
